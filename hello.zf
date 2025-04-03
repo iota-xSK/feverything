@@ -1,0 +1,10 @@
+var hello s" hello world" drop !
+
+ 840 840 hello @ init_window
+: mainloop 
+	begin_drawing 
+		255 0 0 255 clear_background 
+	end_drawing  
+	window_should_close if 
+		quit 
+	fi ;

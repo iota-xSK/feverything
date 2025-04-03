@@ -1,0 +1,3 @@
+[submodule "zForth"]
+	path = zForth
+	url = https://github.com/zevv/zForth.git
