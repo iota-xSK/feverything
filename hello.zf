@@ -1,4 +1,4 @@
-var hello s" hello world" drop !
+var hello s" hello world" drop hello !
 
  840 840 hello @ init_window
 : mainloop 
